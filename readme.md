@@ -91,9 +91,9 @@ reading the documentation did.
 
 Console:
 2026-07-02 07:15:33 | INFO     | Session started | input: ମୋ ପେଟ ଯନ୍ତ୍ରଣା ହେଉଛି
-2026-07-02 07:15:33 | DEBUG    | Translating: ମୋ ପେଟ ଯନ୍ତ୍ରଣା ହେଉଛି
-2026-07-02 07:15:34 | WARNING  | Low confidence — borderline case
-2026-07-02 07:15:34 | INFO     | Decision: URGENT
+/n 2026-07-02 07:15:33 | DEBUG    | Translating: ମୋ ପେଟ ଯନ୍ତ୍ରଣା ହେଉଛି
+/n 2026-07-02 07:15:34 | WARNING  | Low confidence — borderline case
+/n 2026-07-02 07:15:34 | INFO     | Decision: URGENT
 
 JSON trace file:
 {"timestamp": "2026-07-02T07:15:34", "level": "INFO",
