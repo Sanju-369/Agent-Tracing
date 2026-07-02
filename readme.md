@@ -87,22 +87,6 @@ if logger.handlers:
 This bug taught me more about Python's logging system than
 reading the documentation did.
 
-## Sample Output
-
-Console:
-2026-07-02 07:15:33 | INFO     | Session started | input: ମୋ ପେଟ ଯନ୍ତ୍ରଣା ହେଉଛି
-/n 2026-07-02 07:15:33 | DEBUG    | Translating: ମୋ ପେଟ ଯନ୍ତ୍ରଣା ହେଉଛି
-/n 2026-07-02 07:15:34 | WARNING  | Low confidence — borderline case
-/n 2026-07-02 07:15:34 | INFO     | Decision: URGENT
-
-JSON trace file:
-{"timestamp": "2026-07-02T07:15:34", "level": "INFO",
- "message": "Decision: URGENT", "session_id": "sess_001",
- "decision": "URGENT", "cost_usd": 0.003, "latency_ms": 843}
-
-Plain text warning log:
-2026-07-02 07:15:34 | WARNING | Low confidence — borderline case
-
 ## Run It Yourself
 
 python main.py
